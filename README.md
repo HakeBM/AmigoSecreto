@@ -30,10 +30,14 @@
 - `Accceso al proyecto` https://hakebm.github.io/AmigoSecreto/  
 <h7 align = "center" >Inicio y Ejecucion del proyecto </h7>
 <p align= "left">
-    :video_game: - Al entrar al link iniciará el juego. 
-    :video_game: - Ingresar los nombres, estos no pueden estar vacios.
-    :video_game: - No se puede sortear un amigo si la lista esta vacia.
-    :video_game: - El juego se termina cuando aparece en pantalla el amigo sorteado.
+
+- :video_game: `Al entrar al link iniciará el juego.` 
+
+- :video_game: `Ingresar los nombres, estos no pueden estar vacios.`
+
+- :video_game: `No se puede sortear un amigo si la lista esta vacia.`
+
+- :video_game: `El juego se termina cuando aparece en pantalla el amigo sorteado.`
 </p>
 
 </body>
