@@ -25,4 +25,7 @@
 
 - `Funcionalidad 4`: Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 </p>
+<h6 align ="center">:open_file_folder: Accesso al proyecto </h6>
+<num>[Accceso al proyecto](https://hakebm.github.io/AmigoSecreto/)
+
 </body>
