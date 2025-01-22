@@ -24,10 +24,12 @@
 - `Funcionalidad 3`: Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
 
 - `Funcionalidad 4`: Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
-</p>
+</p align= "left">
 <h6 align ="center">:open_file_folder: Accesso al proyecto </h6>
 
-- `Accceso al proyecto` https://hakebm.github.io/AmigoSecreto/  
+    `Accceso al proyecto` https://hakebm.github.io/AmigoSecreto/ 
+
+
 <h7 align = "center" >Inicio y Ejecucion del proyecto </h7>
 <p align= "left">
 
@@ -40,4 +42,14 @@
 - :video_game: `El juego se termina cuando aparece en pantalla el amigo sorteado.`
 </p>
 
+<h8 align = "center">:heavy_check_mark: TECNOLOGIAS UTLIZADAS </h8>
+<p>
+
+- JavaScript
+
+- HTML
+
+- CSS
+
+</p>
 </body>
