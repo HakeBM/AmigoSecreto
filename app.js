@@ -1,7 +1,6 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-//1 Declaro la variable de Arrays que contendra el nombre
+// Declaro la variable de Arrays que contendra el nombre
 let nombres = [];
-
 // Esta funcion se utiliza para crear un elemento de lista y que se muestre en el DOM y que se actulice cada vez 
 //que ingresemos un nombre
 function idYTexto(id, texto) {
@@ -23,7 +22,6 @@ function agregarAmigo() {
         return;
     }
 }   
-
 // esta funcion la utulizmos para recorrer nuestro array con un ciclo for 
 function recorrerLista() {
     let elementosLista=document.getElementById('listaAmigos');
@@ -33,7 +31,6 @@ function recorrerLista() {
         return;
     }
 }
-
 // Primero verificamos que haya amigos para ser sorteados si no es asi muestra un alert
 // cuando detecte una lista multiplicara por la cantidad de nombres ingresados en el array y eligira uno al azar
 function sortearAmigo() {
