@@ -1,34 +1,48 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-// Declaro la variable de Arrays que contendra el nombre
+//1 Declaro la variable de Arrays que contendra el nombre
 let nombres = [];
 
-/* funcion que contiene el Elemento y el texto en este caso sera el nombre que ingresamos 
-usamos la etiqueta <li> para crear una lista que contenga el nombre en el HTML*/
-function textoyElemento(elemento, texto) {
-    let elementoHTML = document.getElementById(elemento);
-    elementoHTML.innerHTML += `<li>${texto}</li>`;
+// Esta funcion se utiliza para crear un elemento de lista y que se muestre en el DOM y que se actulice cada vez 
+//que ingresemos un nombre
+function idYTexto(id, texto) {
+    let idHtml = document.getElementById(id);
+    let elementoNuevo= document.createElement('li');
+    elementoNuevo.textContent = texto;
+    idHtml.appendChild(elementoNuevo);
     return;
-} 
-
-/* Funcion que nos permite agregar el nombre que el usuario ingreso */
+}
+// la funcion que agrega un amigo y valida primero si el nombre no esta vacio y en caso de estarlo muestra un alert
 function agregarAmigo() {
-    /* declaramos una variable que obtendra el nombre ingresado y mandaremos al final del array tambien
-     limpiamos la barra de ingreso y verificamos que el campo no este vacio*/
-    let obtenerNombre= document.querySelector('#amigo').value;
-    if (obtenerNombre && !nombres.includes(obtenerNombre)) {
-        nombres.push(obtenerNombre); 
-        textoyElemento('#listaAmigos', obtenerNombre);
-        document.querySelector('#amigo').value='';       
-         }else if (nombres.includes(obtenerNombre)) {
-            alert="El nombre de esta persona esta repetido";
-    } else {
-        alert = "Por favor ingrese un nombre valido";
+    let obtenerNombre = document.getElementById('amigo').value.trim();
+    if (obtenerNombre !=="") {
+        nombres.push(obtenerNombre);
+        idYTexto('listaAmigos', obtenerNombre);
+        document.getElementById('amigo').value='';
+    } else{
+        alert("Por favor ingrese un nombre valido");
+        return;
     }
+}   
 
+// esta funcion la utulizmos para recorrer nuestro array con un ciclo for 
+function recorrerLista() {
+    let elementosLista=document.getElementById('listaAmigos');
+    elementosLista.innerHTML='';
+    for (let i = 0; i < nombres.length; i++) {
+        idYTexto('li', nombres[i]);
+        return;
+    }
 }
 
+// Primero verificamos que haya amigos para ser sorteados si no es asi muestra un alert
+// cuando detecte una lista multiplicara por la cantidad de nombres ingresados en el array y eligira uno al azar
 function sortearAmigo() {
-    let amigoSorteado = nombres[Math.floor(Math.random()*nombres.length)];
-    textoyElemento= ('#resultado', `El amigo sorteado es ${amigoSorteado}.`);
-    
+    if (nombres.length === 0) {
+        alert("La lista de amigos esta vacia, no hay amigos para sortear.");
+        return;
+    }
+    let amigoSorteado = nombres[Math.floor(Math.random() * nombres.length)];
+    let resultado = document.getElementById('resultado');
+    resultado.textContent = `El amigo sorteado es: ${amigoSorteado}`;
+    return;
 }
