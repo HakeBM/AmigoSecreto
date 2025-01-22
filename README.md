@@ -41,6 +41,9 @@
 - :video_game: `No se puede sortear un amigo si la lista esta vacia.`
 
 - :video_game: `El juego se termina cuando aparece en pantalla el amigo sorteado.`
+
+- :video_game: `Para reiniciar el juego tienes que presionar la tecla F5.`
+
 </p>
 
 <h8 align = "center">:heavy_check_mark: TECNOLOGIAS UTLIZADAS </h8>
