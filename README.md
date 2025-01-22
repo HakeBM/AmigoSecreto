@@ -16,6 +16,7 @@
 </p>
     <h5 align= "left">:hammer: Funcionalidades</h5>
     <p>
+    
 - `Funcionalidad 1`: Agregar nombres: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar".
 
 -`Funcionalidad 2`: Validar entrada: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
