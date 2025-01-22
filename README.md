@@ -26,6 +26,14 @@
 - `Funcionalidad 4`: Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 </p>
 <h6 align ="center">:open_file_folder: Accesso al proyecto </h6>
-<num>[Accceso al proyecto](https://hakebm.github.io/AmigoSecreto/)
+
+- `Accceso al proyecto` https://hakebm.github.io/AmigoSecreto/  
+<h7 align = "center" >Inicio y Ejecucion del proyecto </h7>
+<p align= "left">
+    :video_game: - Al entrar al link iniciará el juego. 
+    :video_game: - Ingresar los nombres, estos no pueden estar vacios.
+    :video_game: - No se puede sortear un amigo si la lista esta vacia.
+    :video_game: - El juego se termina cuando aparece en pantalla el amigo sorteado.
+</p>
 
 </body>
