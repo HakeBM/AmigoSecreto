@@ -27,10 +27,11 @@
 </p align= "left">
 <h6 align ="center">:open_file_folder: Accesso al proyecto </h6>
 
-    `Accceso al proyecto` https://hakebm.github.io/AmigoSecreto/ 
+`Accceso al proyecto` https://hakebm.github.io/AmigoSecreto/ 
 
 
-<h7 align = "center" >Inicio y Ejecucion del proyecto </h7>
+<h7 align = "center" > :wrench: Inicio y Ejecucion del proyecto </h7>
+
 <p align= "left">
 
 - :video_game: `Al entrar al link iniciará el juego.` 
